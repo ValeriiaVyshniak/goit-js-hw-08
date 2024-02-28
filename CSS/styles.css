@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+.gallery {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1128px;
+    gap: 24px;
+    margin: 0;
+    padding-top: 24px;
+    padding-left: 156px;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+}
+.gallery-image:hover {
+    cursor: pointer;
+    color: #4E75FF;
+}
